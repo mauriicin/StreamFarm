@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>StreamFarm </title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">StreamFarm</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#hero" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#info" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#precos" class="nav__link">Preços</a>
+                    </li>
+                </ul>                
+            </div>
+            
+            <div class="nav__login">
+                <a href="#login" class="button">Login</a>
+                <a href="#login" class="invisibel">Português</a>
+            </div>     
+            
+            <div class="nav__mobile" id="nav-mobile">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#hero" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#info" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#precos" class="nav__link">Preços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="login.html" class="nav__link">Login</a>
+                    </li>
+                </ul>                
+            </div>            
+
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero bd-grid" id="hero">
+            <div class="hero__data">
+                <h1 class="hero__title">Farme pontos em lojas da Twitch/Boyaah!</h1>
+                <p class="hero__txt">
+                    Com a StreamFarm você pode farmar pontos nas maiores lojas da twitch e/ou Boyaah, sem precisar
+                    deixar
+                    seu computador ou celular ligado 24/7.
+                </p>
+
+                <a href="#" class="button">Fazer Login</a>
+                <a href="#" class="buttontwo">Registre-se</a>
+            </div>
+            <div class="hero__img">
+                <svg class="hero__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="hero__blob-img" x="70" y="135" href="img/hero.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <section class="bg-info" id="info">
+            <div class="info bd-row">
+                <div class="info__img">
+                    <img src="img/info.png" />
+                </div>
+                <div class="info__data">
+                    <h1 class="info__title">O que é a StreamFarm?</h1>
+                    <p class="info__text">
+                        A StreamFarm é um serviço que farma em lojas da twitch e/ou Boyaah, 24 horas por dia, ao
+                        criar uma conta você recebe um teste gratis de 12 horas, assim você pode testar todos os nossos
+                        serviços.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white" id="precos">
+            <div class="precos bd-row">
+                <div class="section__head">
+                    <h1 class="section__title">
+                        Preços
+                    </h1>
+                </div>
+
+                <!--Plano modelo Inicio-->
+                <div class="card" id="plan-1">
+                    <div class="card__plan">
+                        Bronze
+                    </div>
+                    <div class="card__price d-flex align-center">
+                        R$
+                        <span class="price">9,99</span>
+                        <span class="small">/mês</span>
+                    </div>
+                    <div class="card__description">
+                        Aqui é uma breve descrição do plano.
+                    </div>
+                    <div class="card__details">
+                        <ul class="details__list">
+                            <li class="details__item">
+                                <b>3</b> Contas da Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__button">
+                        <a href="#comprar">Quero Esse</a>
+                    </div>
+                </div>
+                <!--Plano modelo Fim-->
+
+                <!--Plano modelo Inicio-->
+                <div class="card" id="plan-1">
+                    <div class="card__plan">
+                        Bronze
+                    </div>
+                    <div class="card__price d-flex align-center">
+                        R$
+                        <span class="price">9,99</span>
+                        <span class="small">/mês</span>
+                    </div>
+                    <div class="card__description">
+                        Aqui é uma breve descrição do plano.
+                    </div>
+                    <div class="card__details">
+                        <ul class="details__list">
+                            <li class="details__item">
+                                <b>3</b> Contas da Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                            <li class="details__item">
+                                Limite de até <b>3</b> Lives Twitch/Boyaah
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__button">
+                        <a href="#comprar">Quero Esse</a>
+                    </div>
+                </div>
+                <!--Plano modelo Fim-->
+            </div>
+        </section>
+
+        <section class="bg-info" id="perguntas">
+            <div class="perguntas bd-row">
+                <div class="section__head">
+                    <h1 class="section__title">
+                        Perguntas Frequentes
+                    </h1>
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+                <div class="question">                    
+                    <div class="question__box">
+                        <h1 class="question__title">
+                            Como o TwitchFarm funciona?
+                        </h1>
+                        <p class="question__txt">
+                            Nossos serviços funcionam da seguinte forma, ao vincular a sua conta da Twitch você pode
+                            escolher em quais canais irá farmar, após isso ao ativar o farm nós farmamos para você.
+                        </p>
+                    </div>                    
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer bd-row">
+            <div class="footer__copy">
+                Copyright ©2022 Todos os Direitos Reservados por <a href="/">StreamFarm</a> | A
+                <strong>StreamFarm</strong> não é afiliada a <strong>Twitch Interactive, Inc.</strong>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
